@@ -27,7 +27,7 @@ let utente = 0;
 //click
 function estrazione() {
     let random = Math.floor(Math.random() * 3) + 1;
-    (if i === 0) {
+    if (i === 0) {
         if (random === 1) { //carta
             uno.style.display = "inline-block";
             i++;
